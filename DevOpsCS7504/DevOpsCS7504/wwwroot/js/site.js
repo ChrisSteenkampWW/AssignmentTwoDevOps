@@ -90,7 +90,6 @@
 
                 this.ctx.fillStyle = '#FFEB3B';
                 this.drawStar(model.star.x, model.star.y, 5, model.star.radius, model.star.radius / 2);
-        
 
                 this.ctx.fillStyle = 'white';
                 this.ctx.font = '16px Arial';
