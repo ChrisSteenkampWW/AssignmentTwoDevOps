@@ -80,11 +80,7 @@
                 this.ctx.closePath();
                 this.ctx.fill();
             }
-
-
-
-
-
+        
 
             render(model) {
                 this.ctx.clearRect(0, 0, model.width, model.height);
@@ -93,9 +89,8 @@
                 this.ctx.fillRect(model.basket.x, model.basket.y, model.basket.width, model.basket.height);
 
                 this.ctx.fillStyle = '#FFEB3B';
-                this.ctx.beginPath();
-                this.ctx.arc(model.star.x, model.star.y, model.star.radius, 0, Math.PI * 2);
-                this.ctx.fill();
+                this.drawStar(model.star.x, model.star.y, 5, model.star.radius, model.star.radius / 2);
+        
 
                 this.ctx.fillStyle = 'white';
                 this.ctx.font = '16px Arial';

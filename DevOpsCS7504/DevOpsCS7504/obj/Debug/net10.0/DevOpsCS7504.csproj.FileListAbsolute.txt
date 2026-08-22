@@ -95,4 +95,4 @@
 /media/Seal/VSCode/AssignmentOne/DevOpsCS7504/DevOpsCS7504/obj/Debug/net10.0/DevOpsCS7504.genruntimeconfig.cache
 /media/Seal/VSCode/AssignmentOne/DevOpsCS7504/DevOpsCS7504/obj/Debug/net10.0/ref/DevOpsCS7504.dll
 /media/Seal/VSCode/AssignmentOne/DevOpsCS7504/DevOpsCS7504/obj/Debug/net10.0/compressed/atxsxszaur-{0}-17ji80y0o4-17ji80y0o4.gz
-/media/Seal/VSCode/AssignmentOne/DevOpsCS7504/DevOpsCS7504/obj/Debug/net10.0/compressed/nezrd48zeu-{0}-tbnvhw60zm-tbnvhw60zm.gz
+/media/Seal/VSCode/AssignmentOne/DevOpsCS7504/DevOpsCS7504/obj/Debug/net10.0/compressed/nezrd48zeu-{0}-74mfuxhxug-74mfuxhxug.gz

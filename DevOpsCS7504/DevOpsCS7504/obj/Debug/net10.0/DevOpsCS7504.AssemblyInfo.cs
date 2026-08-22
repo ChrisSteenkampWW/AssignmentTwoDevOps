@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DevOpsCS7504")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+764c048d3ce03ac6c6660595a51ee61a8ea92785")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8fc9e9389a5417283347e5351c2c955911d58e17")]
 [assembly: System.Reflection.AssemblyProductAttribute("DevOpsCS7504")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DevOpsCS7504")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
