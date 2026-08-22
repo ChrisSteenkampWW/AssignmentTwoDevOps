@@ -57,6 +57,34 @@
                 this.canvas = canvas;
                 this.ctx = canvas.getContext('2d');
             }
+            drawStar(cx, cy, spikes, outerRadius, innerRadius) {
+                let rot = (Math.PI * 3) / 2;
+                let x = cx;
+                let y = cy;
+                let step = Math.PI / spikes;
+
+                this.ctx.beginPath();
+                this.ctx.moveTo(cx, cy - outerRadius);
+                for (let i = 0; i < spikes; i++) {
+                    x = cx + Math.cos(rot) * outerRadius;
+                    y = cy + Math.sin(rot) * outerRadius;
+                    this.ctx.lineTo(x, y);
+                    rot += step;
+
+                    x = cx + Math.cos(rot) * innerRadius;
+                    y = cy + Math.sin(rot) * innerRadius;
+                    this.ctx.lineTo(x, y);
+                    rot += step;
+                }
+                this.ctx.lineTo(cx, cy - outerRadius);
+                this.ctx.closePath();
+                this.ctx.fill();
+            }
+
+
+
+
+
 
             render(model) {
                 this.ctx.clearRect(0, 0, model.width, model.height);
