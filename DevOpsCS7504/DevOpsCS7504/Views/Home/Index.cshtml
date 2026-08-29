@@ -1,9 +1,27 @@
 ﻿@{
-    ViewData["Title"] = "Home Page";
+    ViewData["Title"] = "Falling Star Game";
 }
 
 <div class="text-center">
-    <h2>Catch The Falling Star Game!</h2>
-    <p>Use the <b>Left</b> and <b>Right</b> Arrow keys to catch stars.</p>
-    <canvas id="gameCanvas" width="400" height="500"></canvas>
+    <h1 class="display-5 fw-bold">Catch the Falling Star!</h1>
+
+    <p class="lead">
+        Move the basket using the <strong>Left</strong> and
+        <strong>Right</strong> arrow keys and catch as many stars as you can.
+    </p>
+
+    <div class="mb-3">
+        <span class="badge bg-primary me-2">Controls: ← →</span>
+        <span class="badge bg-secondary">Starting Lives: 3</span>
+    </div>
+
+    <canvas id="gameCanvas"
+            width="400"
+            height="500"
+            class="border rounded shadow">
+    </canvas>
+
+    <p class="text-muted mt-3">
+        The star gets faster each time you catch it. The game ends when you run out of lives.
+    </p>
 </div>
